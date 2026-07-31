@@ -1,0 +1,9 @@
+.maintitle {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    background-color: rgb(100, 100, 255);
+    padding: 10px;
+}
