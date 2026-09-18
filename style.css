@@ -7,3 +7,68 @@
     background-color: rgb(100, 100, 255);
     padding: 10px;
 }
+
+.maincontent {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gazou {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subtitle {
+    display: inline-block;
+    font-size: 2.5em;
+    background-color: rgb(225, 248, 255);
+    border: solid 2px black;
+    margin: 10px;
+}
+
+.naiyou {
+    font-size: 1.5em;
+    background-color: rgb(255, 255, 240);
+    margin-bottom: 4em;
+}
+
+.shoplist {
+    /* overflow-x: scroll; */
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    /* white-space: nowrap; */
+}
+
+.shop {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    aspect-ratio: 4/3;
+}
+
+.bun{
+    font-size: 20px;
+}
+
+.zenbun{
+    font-size: 30px;
+    background-color: rgb(255, 255, 240);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
